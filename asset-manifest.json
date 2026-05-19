@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frontend-auth-/static/css/main.d4ab6a47.css",
+    "main.js": "/frontend-auth-/static/js/main.86a38ba1.js",
+    "index.html": "/frontend-auth-/index.html",
+    "main.d4ab6a47.css.map": "/frontend-auth-/static/css/main.d4ab6a47.css.map",
+    "main.86a38ba1.js.map": "/frontend-auth-/static/js/main.86a38ba1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ab6a47.css",
+    "static/js/main.86a38ba1.js"
+  ]
+}
