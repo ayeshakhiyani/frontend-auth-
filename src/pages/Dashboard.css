@@ -1,0 +1,68 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+.dashboard-card h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.profile-section {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.profile-section h2 {
+  color: #667eea;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.profile-info p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.profile-info strong {
+  color: #333;
+}
+
+.logout-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.logout-btn:hover {
+  transform: translateY(-2px);
+}
